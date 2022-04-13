@@ -1,8 +1,7 @@
-M = int(input())
-N = int(input())
-res = list()
-
-for i in range(M, N+1):
+m = int(input())
+n = int(input())
+res = []
+for i in range(m,n+1):
     cnt = 0
     if i == 1 :
         continue
@@ -10,5 +9,9 @@ for i in range(M, N+1):
         if(i % j == 0):
             cnt+=1
     if(cnt == 1):
-        res += 1
-print(res)
+        res.append(i)
+if res == []:
+    print(-1)
+else :
+    print(sum(res))
+    print(res[0])
