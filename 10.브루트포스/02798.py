@@ -9,5 +9,5 @@ for i in range(0,num-2): # num-2 자리까지
     for j in range(i+1,num-1):# i+1 (앞의 숫자가 겹치지 않기 위해) 부터 num-1 자리까지
         for k in range(j+1,num): # j+1 (앞의 숫가가 겹치지 않기 위해)
             if cards[i]+cards[j]+cards[k] <= goal: # 카드 모두를 더한 값이 goal보다 작거나 같을시
-                max_num.append(cards[i]+cards[j]+cards[k])
+                max_num.append(cards[i]+cards[j]+cards[k]) # 카드 세개 더한값을 리스트에 저장
 print(max(max_num))
