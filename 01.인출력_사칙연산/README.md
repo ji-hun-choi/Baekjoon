@@ -7,11 +7,14 @@
  - 주어진 예제처럼 출력하는 문제 2
    - https://www.acmicpc.net/problem/10718
 ## 03. [고양이](10171.py)
- - 주어진 예제처럼 출력하는 문제 3
+ - \\, ' 등의 문자에 주의하며 고양이를 출력하는 문제
    - https://www.acmicpc.net/problem/10171
-## 04. [개](10172.py)
+## 04(구). [개](10172.py)
  - 주어진 예제처럼 출력하는 문제 4
    - https://www.acmicpc.net/problem/10172
+## 04(신). [새싹](25083.py)
+ - ', ", `, \ 등의 문자에 주의하며 새싹을 출력하는 문제
+   - https://www.acmicpc.net/problem/25083
 ## 05. [A+B](01000.py)
  - 두 수를 입력받고 합을 출력하는 문제
    - https://www.acmicpc.net/problem/01000
